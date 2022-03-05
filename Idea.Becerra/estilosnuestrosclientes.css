@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    background-color: #a9a9a9;
+}
+
+.card1Flex{
+    width: 100%;
+    position:sticky;
+    image-orientation: flip;
+    padding: 300px;
+}
+
+.card2Flex{
+    width: 100%;
+    position:sticky;
+    image-orientation: flip;
+    padding: 300px;
+}
+
+.card3Flex{
+    width: 100%;
+    position:sticky;
+    image-orientation: flip;
+    padding: 300px;
+}
+
+.card4Flex{
+    width: 100%;
+    position:sticky;
+    image-orientation: flip;
+    padding: 200px;
+}

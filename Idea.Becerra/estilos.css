@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.headerFlex{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    background-color: #a9a9a9;
+    background-image: url(./img/logo.jpg);
+    background-repeat: no-repeat;
+    border-image-width: 6px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* NAVBAR */
+
+.header__navbarFlex ul{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+
+}
+
+.header__navbarFlex a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color:#2b282e;
+    border-radius: 1px;
+    padding: 80px;
+    width: 100%;
+  }
+
+.header__titulo{
+    display:block;
+    size: 1px;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(12, 12, 12);
+    font-size: 2rem;
+    padding: 5rem;
+    background-color: #5c5757;
+    width: 100%;
+} 
+
+.sub__titulo{
+    font-family: 'Outfit', sans-serif;
+    background-color: #a9a9a9;
+    font-size: medium;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* CONTENIDO */
+
+
+
+.cardsFlex{
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    width: 100%;
+}
+
+.section__contenido{
+    font-family: 'Outfit', sans-serif;
+    background-color: #c2bebe;
+    padding: 2rem;
+    width: 100%;
+}
+
+.body{
+    font-family: 'Outfit', sans-serif;
+    color: #a9a9a9;
+    width: 100%;
+}
+
+.quienesSomosFlex{
+    display: inline-flex;
+    text-align: justify;
+    background-color: #5c5757;
+    font-family: 'Outfit', sans-serif;
+    font-size: medium;
+    width: 100%;
+}
+
+.card1Flex{
+    display: flex;
+    image-resolution: 6px;
+    text-align: justify;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+
+.card2Flex{
+    display: flex;
+    image-resolution: 6px;
+    text-align: justify;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+
+/* CON IMAGENES */
+
+.efecto-imagen img:hover{
+    transform: scale(1.3);
+}
+
+
+/* FOOTER */
+
+.footerFlex{
+    display:inline-flex
+    font-family 'Outfit', sans-serif;
+    background-color: #2b282e;
+    color: rgb(240, 242, 245);
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+
+
+

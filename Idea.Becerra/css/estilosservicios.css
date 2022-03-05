@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenedorFlex{
+    background-color:#a9a9a9;
+    font-family: 'Outfit', sans-serif;
+    color: black
+}
+
+.cardsFlex{
+    font-family: 'Outfit', sans-serif;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    background-color: #5c5757;
+}
+
